@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/bakestack",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Bake structured JSON stack payloads without a heavyweight toolkit.",
+  "bin": {
+    "bakestack": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/bakestack.git"
+  },
+  "homepage": "https://theworker02.github.io/bakestack/",
+  "keywords": [
+    "bake",
+    "stack",
+    "json",
+    "cli",
+    "toolkit"
+  ]
+}
